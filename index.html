@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Page Eror</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="content">
+            <h2>404</h2>
+            <h4>Page not found</h4>
+            <p>The page you were looking for doesn't exists. You may have mistyped the address or the page may have moved.</p>
+            <a href="#">Back To Home</a>
+        </div>
+    </div>
+    <script>
+        const container = document.getElementById("container");
+        window.onmousemove = (e) => {
+            var x = e.clientX;
+            var y = e.clientY;
+            container.style.backgroundPositionX = x + "px";
+            container.style.backgroundPositionY = y + "px";
+        }
+    </script>
+</body>
+
+</html>
